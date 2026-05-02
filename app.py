@@ -199,10 +199,15 @@ GRID = "rgba(255,255,255,.04)"
 TC   = "#71717a"
 MONO = "IBM Plex Mono"
 
+# def base_layout(**kw):
+#     return dict(paper_bgcolor=BG, plot_bgcolor=BG,
+#                 font=dict(family="IBM Plex Sans", color=TC, size=11),
+#                 margin=dict(l=6,r=6,t=30,b=6), showlegend=False, **kw)
+
 def base_layout(**kw):
     return dict(paper_bgcolor=BG, plot_bgcolor=BG,
                 font=dict(family="IBM Plex Sans", color=TC, size=11),
-                margin=dict(l=6,r=6,t=30,b=6), showlegend=False, **kw)
+                margin=dict(l=6,r=6,t=30,b=6), **kw)
 
 def ax(title=""):
     return dict(title=title, gridcolor=GRID,
