@@ -24,7 +24,7 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 html,body,.stApp{background:#09090b!important;font-family:'IBM Plex Sans',sans-serif!important;color:#fafafa!important}
-.block-container{padding:1.4rem 1.8rem 2rem!important;max-width:100%!important}
+.block-container{padding:3.5rem 1.8rem 2rem!important;max-width:100%!important}
 
 [data-testid="stSidebar"]{background:#111113!important;border-right:1px solid rgba(255,255,255,.07)!important;min-width:228px!important;max-width:228px!important}
 [data-testid="stSidebar"]>div{padding:1rem 0.85rem!important}
