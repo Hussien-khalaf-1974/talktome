@@ -171,9 +171,16 @@ CFG  = {"displayModeBar": False}
 
 # ── Sidebar ───────────────────────────────────────────────────────
 with st.sidebar:
+    # st.markdown("""
+    # <div style="font-size:17px;font-weight:700;color:#fafafa;letter-spacing:-.3px;margin-bottom:1px">📡 Talk to Me</div>
+    # <div style="font-size:9px;color:#71717a;text-transform:uppercase;letter-spacing:1px;font-family:'IBM Plex Mono',monospace;margin-bottom:16px">Churn Intelligence</div>
+    # """, unsafe_allow_html=True)
+
     st.markdown("""
-    <div style="font-size:17px;font-weight:700;color:#fafafa;letter-spacing:-.3px;margin-bottom:1px">📡 Talk to Me</div>
-    <div style="font-size:9px;color:#71717a;text-transform:uppercase;letter-spacing:1px;font-family:'IBM Plex Mono',monospace;margin-bottom:16px">Churn Intelligence</div>
+    <div style="margin-top:12px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.07);margin-bottom:4px">
+      <div style="font-size:18px;font-weight:700;color:#fafafa;letter-spacing:-.4px;line-height:1.2">📡 Talk to Me</div>
+      <div style="font-size:9px;color:#71717a;text-transform:uppercase;letter-spacing:1.2px;font-family:'IBM Plex Mono',monospace;margin-top:4px">Churn Intelligence</div>
+    </div>
     """, unsafe_allow_html=True)
 
     st.markdown('<div style="font-size:8.5px;text-transform:uppercase;letter-spacing:1.2px;color:#52525b;font-weight:600;padding:10px 3px 4px">Workspace</div>', unsafe_allow_html=True)
